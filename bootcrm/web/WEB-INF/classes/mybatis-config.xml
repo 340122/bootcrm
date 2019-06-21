@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--别名 ,为了简化输入，不区分大小写-->
+    <typeAliases>
+        <!--给某个包下面多个类取别名  类的别名就是将类名的首字母小写-->
+        <package name="cn.massz.core.po"/>
+    </typeAliases>
+</configuration>
